@@ -1,0 +1,20 @@
+name: jaspr_0_11_1_test
+description: A new jaspr project.
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  jaspr:
+  jaspr_router:
+
+dev_dependencies:
+  build_runner:
+  build_web_compilers:
+  jaspr_builder:
+  lints: ^3.0.0
+
+jaspr:
+  mode: server
+
